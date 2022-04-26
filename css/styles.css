@@ -138,16 +138,41 @@ h1 {
 
 .palavrasTraduzidas {
     position: absolute;
-    top: 850px;
+    top: 650px;
     left: 20vw;
     width: 26vw;
     height: auto;
 }
 
+.palavrasTraduzidas::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    top: -40px;
+    left: 20px;
+    background-color: rgba(000, 000, 000, .5);
+}
+
 .palavrasTraduzidas p {
+    margin-left: 40px;
     font-size: 22px;
     line-height: 1.6vw;
     color: black;
+}
+
+.scroolBtn {
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    right: 48.5%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+
+    background-color: var(--verde-primario);
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 1200px) {
