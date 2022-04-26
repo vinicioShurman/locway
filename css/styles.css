@@ -107,7 +107,15 @@ h1 {
     top: 250px;
     right: 10vw;
     height: auto;
-    width: 50vw;
+    width: 40vw;
+}
+
+.imgBGQS-2 {
+    position: absolute;
+    top: 550px;
+    left: 10vw;
+    height: auto;
+    width: 10vw;
 }
 
 .quemSomosTxt {
@@ -127,6 +135,20 @@ h1 {
 .quemSomosTxt p {
     font-size: 22px;
     line-height: 1.6vw;
+}
+
+.palavrasTraduzidas {
+    position: absolute;
+    top: 850px;
+    left: 20vw;
+    width: 26vw;
+    height: auto;
+}
+
+.palavrasTraduzidas p {
+    font-size: 22px;
+    line-height: 1.6vw;
+    color: black;
 }
 
 
