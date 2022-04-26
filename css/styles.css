@@ -19,6 +19,9 @@ header {
     height: 100px;
     width: 100%;
     border-bottom: 2px solid #dfdfdf;
+    background-color: #fff;
+    z-index: 9;
+
 }
 
 nav {
@@ -66,21 +69,31 @@ h1 {
 }
 
 .profissionais {
-    position: relative;
-    left: -20px;
     font-size: 3.7vw;
-    padding: 0 25px;
-    background-color: var(--amarelo-primario);
 }
+
+.profissionais::after {
+    content: "";
+    position: absolute;
+    width: 18vw;
+    height: 55px;
+    padding: 0 25px;
+    top: 105px;
+    right: 5vw;
+    background-color: var(--amarelo-primario);
+    z-index: -1;
+}
+
 
 .logoNav {
     position: fixed;
     left: 10vw;
-    top: 15px;
-    height: 70px;
+    top: 20px;
+    height: 50px;
     width: auto;
 }
 
+/* BACKGROUND */
 .mapaBg {
     position: absolute;
     top: 250px;
@@ -88,4 +101,32 @@ h1 {
     height: auto;
     width: 50vw;
 }
+
+.imgBGQS-1 {
+    position: absolute;
+    top: 250px;
+    right: 10vw;
+    height: auto;
+    width: 50vw;
+}
+
+.quemSomosTxt {
+    position: absolute;
+    top: 200px;
+    left: 10vw;
+    width: 26vw;
+    height: auto;
+}
+
+.quemSomosTxt h1 {
+    font-size: 2vw;
+    line-height: 4.2vw;
+    text-decoration: underline 4px var(--amarelo-primario);
+}
+
+.quemSomosTxt p {
+    font-size: 22px;
+    line-height: 1.6vw;
+}
+
 
