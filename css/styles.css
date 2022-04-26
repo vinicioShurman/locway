@@ -21,7 +21,6 @@ header {
     border-bottom: 2px solid #dfdfdf;
     background-color: #fff;
     z-index: 9;
-
 }
 
 nav {
@@ -45,10 +44,45 @@ h1 {
     font-weight: 400;
 }
 
+/* IMAGES  */
+.mapaBg {
+    position: absolute;
+    top: 250px;
+    left: 10vw;
+    height: auto;
+    width: 50vw;
+}
+
+.imgBGQS-1 {
+    position: absolute;
+    top: 250px;
+    right: 10vw;
+    height: auto;
+    width: 40vw;
+}
+
+.imgBGQS-2 {
+    position: absolute;
+    top: 570px;
+    left: 10vw;
+    height: auto;
+    width: 10vw;
+}
+
+.logoNav {
+    position: fixed;
+    left: 10vw;
+    top: 20px;
+    height: 52px;
+    width: auto;
+}
+
+/* -------- */
+
 .slogam {
     position: absolute;
     top: 300px;
-    right: 5vw;
+    right: 10vw;
     width: 25vw;
     height: auto;
     font-size: 2vw;
@@ -75,47 +109,12 @@ h1 {
 .profissionais::after {
     content: "";
     position: absolute;
-    width: 18vw;
-    height: 55px;
-    padding: 0 25px;
-    top: 105px;
-    right: 5vw;
+    width: 27vw;
+    height: 3vw;
+    top: 5vw;
+    right: 0;
     background-color: var(--amarelo-primario);
     z-index: -1;
-}
-
-
-.logoNav {
-    position: fixed;
-    left: 10vw;
-    top: 20px;
-    height: 50px;
-    width: auto;
-}
-
-/* BACKGROUND */
-.mapaBg {
-    position: absolute;
-    top: 250px;
-    left: 10vw;
-    height: auto;
-    width: 50vw;
-}
-
-.imgBGQS-1 {
-    position: absolute;
-    top: 250px;
-    right: 10vw;
-    height: auto;
-    width: 40vw;
-}
-
-.imgBGQS-2 {
-    position: absolute;
-    top: 550px;
-    left: 10vw;
-    height: auto;
-    width: 10vw;
 }
 
 .quemSomosTxt {
@@ -133,7 +132,7 @@ h1 {
 }
 
 .quemSomosTxt p {
-    font-size: 22px;
+    font-size: 1.2vw;
     line-height: 1.6vw;
 }
 
@@ -149,6 +148,22 @@ h1 {
     font-size: 22px;
     line-height: 1.6vw;
     color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .quemSomosTxt h1 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+
+    .quemSomosTxt p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .quemSomosTxt {
+        width: 300px;
+    }
 }
 
 
