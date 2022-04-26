@@ -1,0 +1,91 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: "Futura", "Poppins", sans-serif;
+}
+
+:root {
+    --verde-primario: rgb(0,178,94);
+    --verde-hover: rgb(9, 146, 82);
+    --amarelo-primario: rgb(255,202,40);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+nav {
+    position: fixed;
+    right: 10vw;
+    top: 40px;
+}
+nav a {
+    color: rgba(000, 000, 000, .5);
+    margin: 0 0 0 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(000, 000, 000, .5);
+    text-decoration: underline rgba(000, 000, 000, .5) 2px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.slogam {
+    position: absolute;
+    top: 300px;
+    right: 5vw;
+    width: 25vw;
+    height: auto;
+    font-size: 2vw;
+    line-height: 4.2vw;
+}
+
+.slogam a {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--verde-primario);
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+.slogam a:hover {
+    background-color: var(--verde-hover);
+}
+
+.profissionais {
+    position: relative;
+    left: -20px;
+    font-size: 3.7vw;
+    padding: 0 25px;
+    background-color: var(--amarelo-primario);
+}
+
+.logoNav {
+    position: fixed;
+    left: 10vw;
+    top: 15px;
+    height: 70px;
+    width: auto;
+}
+
+.mapaBg {
+    position: absolute;
+    top: 250px;
+    left: 10vw;
+    height: auto;
+    width: 50vw;
+}
+
