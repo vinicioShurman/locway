@@ -71,7 +71,7 @@ h1 {
 
 .imgBGQS-3 {
     position: absolute;
-    top: 150vh;
+    top: 163vh;
     left: 10vw;
     height: auto;
     width: 10vw;
@@ -167,7 +167,7 @@ h1 {
 
 .duvida {
     position: absolute;
-    top: 160vh;
+    top: 173vh;
     left: 22vw;
     width: 26vw;
     height: auto;
@@ -176,9 +176,9 @@ h1 {
 .duvida::before {
     content: "";
     position: absolute;
-    width: 2px;
+    width: 1px;
     height: 100px;
-    top: -40px;
+    top: -30px;
     left: -15px;
     background-color: rgba(000, 000, 000, .5);
 }
@@ -186,7 +186,7 @@ h1 {
 .palavrasTraduzidas::before {
     content: "";
     position: absolute;
-    width: 2px;
+    width: 1px;
     height: 100px;
     top: -40px;
     left: 20px;
@@ -209,9 +209,44 @@ h1 {
     text-align: center;
     margin: auto;
     color: #fff;
-
     background-color: var(--verde-primario);
     border-radius: 50px;
+}
+
+.carasLocway {
+    position: absolute;
+    position: absolute;
+    top: 115vh;
+    right: 10vw;
+    width: 40vw;
+    height: auto;
+}
+
+.carasLocway h1 {
+    font-size: 2vw;
+    line-height: 4.2vw;
+    font-weight: 600;
+}
+
+.carasLocway p {
+    font-size: 1vw;
+    line-height: 1.6vw;
+    margin-bottom: 0.6vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin-bottom: 6vw;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 0.5vw 1vw;
+    padding: 3vw;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 0 0 16px 1px rgba(000, 000, 000, .09);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -227,6 +262,25 @@ h1 {
 
     .quemSomosTxt {
         width: 300px;
+    }
+
+    .quemSomosTxt2 h1 {
+        font-size: 35px;
+        line-height: 65px;
+    }
+
+    .quemSomosTxt2 p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .quemSomosTxt2 {
+        width: 300px;
+    }
+
+    .palavrasTraduzidas p {
+        font-size: 18px;
+        line-height: 25px;
     }
 }
 
