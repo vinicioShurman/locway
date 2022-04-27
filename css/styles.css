@@ -69,6 +69,14 @@ h1 {
     width: 10vw;
 }
 
+.imgBGQS-3 {
+    position: absolute;
+    top: 150vh;
+    left: 10vw;
+    height: auto;
+    width: 10vw;
+}
+
 .logoNav {
     position: fixed;
     left: 10vw;
@@ -136,12 +144,43 @@ h1 {
     line-height: 1.6vw;
 }
 
+.quemSomosTxt2 {
+    position: absolute;
+    top: 120vh;
+    left: 10vw;
+    width: 26vw;
+    height: auto;
+}
+
+.quemSomosTxt2 p {
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+
 .palavrasTraduzidas {
     position: absolute;
     top: 650px;
     left: 20vw;
     width: 26vw;
     height: auto;
+}
+
+.duvida {
+    position: absolute;
+    top: 160vh;
+    left: 22vw;
+    width: 26vw;
+    height: auto;
+}
+
+.duvida::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    top: -40px;
+    left: -15px;
+    background-color: rgba(000, 000, 000, .5);
 }
 
 .palavrasTraduzidas::before {
