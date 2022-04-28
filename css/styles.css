@@ -95,6 +95,29 @@ h1 {
     border-radius: 50%;
 }
 
+/* ---- */
+
+.shapeBg1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 100px;
+    width: 200px;
+    height: 175px;
+    background-color: var(--verde-primario);
+}
+.shapeBg1::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 150px;
+    width: 60px;
+    height: 290px;
+    background-color: var(--amarelo-primario);
+    z-index: -1;
+}
+
 /* -------- */
 
 .slogam {
