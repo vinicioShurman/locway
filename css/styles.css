@@ -264,15 +264,23 @@ h1 {
     position: absolute;
     top: 15vw;
     left: 10vw;
-    width: 66vw;
+    right: 10vw;
     height: auto;
     background-color: var(--verde-primario);
-    border-radius: 50px 220px 220px 50px;
+    border-radius: 50px 260px 260px 50px;
+    padding-bottom: 1.2vw;
+}
+
+.perfil h1, 
+.perfil h2,
+.perfil p {
+    color: #fff;
+    margin-left: 2.5vw;
 }
 
 .perfil h1 {
-    color: #fff;
-    margin: 1vw 0 0.8vw 2.5vw;
+    margin-top: 1.2vw;
+    margin-bottom: 0.8vw;;
     font-size: 3vw;
     font-weight: 600;
 }
@@ -280,12 +288,18 @@ h1 {
 .perfil h2 {
     font-size: 1.3vw;
     font-weight: 600;
-    margin-bottom: 0.6vw;
+    margin-bottom: 0.8vw;
+}
+
+.perfil p {
+    margin-bottom: 0.8vw;
+    padding-right: 6vw;
 }
 
 .perfilFoto {
-    width: 22vw;
+    width: 27vw;
     height: auto;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 1200px) {
