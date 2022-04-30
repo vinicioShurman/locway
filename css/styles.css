@@ -102,8 +102,8 @@ h1 {
     right: 0;
     top: 0;
     border-radius: 0 0 0 100px;
-    width: 200px;
-    height: 175px;
+    width: 170PX;
+    height: 160px;
     background-color: var(--verde-primario);
 }
 .shapeBg1::before {
@@ -112,8 +112,29 @@ h1 {
     right: 0;
     top: 0;
     border-radius: 0 0 0 150px;
-    width: 60px;
-    height: 290px;
+    width: 55px;
+    height: 240px;
+    background-color: var(--amarelo-primario);
+    z-index: -1;
+}
+
+.shapeBg2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 100px 0 0;
+    width: 180px;
+    height: 40px;
+    background-color: var(--verde-primario);
+}
+.shapeBg2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 150px 0 0;
+    width: 80px;
+    height: 150px;
     background-color: var(--amarelo-primario);
     z-index: -1;
 }
