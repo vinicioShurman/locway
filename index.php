@@ -24,7 +24,7 @@ if (isset($_GET['action'])) {
         require_once 'view/perguntasFrequentes.php'
     }
 
-    if ($_GET[''] == 'contato') {
+    if ($_GET['action'] == 'contato') {
         $title = "Contato";
         require_once 'view/contato.php'
     }
