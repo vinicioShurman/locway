@@ -546,40 +546,6 @@ label {
 .enviar:hover {
     background-color: var(--verde-hover);
 }
-
-@media only screen and (max-width: 1200px) {
-    .Txt h1 {
-        font-size: 35px;
-        line-height: 65px;
-    }
-
-    .Txt p {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .Txt {
-        width: 300px;
-    }
-
-    .Txt2 h1 {
-        font-size: 35px;
-        line-height: 65px;
-    }
-
-    .Txt2 p {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .Txt2 {
-        width: 300px;
-    }
-
-    .palavrasTraduzidas p {
-        font-size: 18px;
-        line-height: 25px;
-    }
-}
+ 
 
 
