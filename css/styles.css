@@ -497,6 +497,55 @@ h1 {
     margin: 20px;
 }
 
+.form {
+    position: absolute;
+    left: 10vw;
+    top: 300px;
+    height: auto;
+    width: 32vw;
+    padding: 50px 10px 50px;
+    box-shadow: 0 0 20px 5px rgba(000, 000, 000, .09);
+}
+
+input {
+    height: 36px;
+    width: 28vw;
+    margin: 20px 15px;
+    border-radius: 8px;
+    background-color: #f6f5f5;
+    padding: 0 22px;
+}
+
+label {
+    color: #000;
+    margin-left: 15px;
+}
+
+#mensagem { 
+    min-height: 36px;
+    max-height: 200px;
+    min-width: 28vw;
+    max-width: 28vw;
+    margin: 20px 15px;
+    border-radius: 8px;
+    background-color: #f6f5f5;
+    padding: 22px 22px;
+}
+
+
+.enviar {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--verde-primario);
+    margin: 20px 0 0 15px;
+    padding: 0.4vw 2vw;
+    border-radius: 50px;
+    font-weight: 100;
+    font-size: 1vw;
+}
+.enviar:hover {
+    background-color: var(--verde-hover);
+}
 
 @media only screen and (max-width: 1200px) {
     .Txt h1 {
